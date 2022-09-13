@@ -25,7 +25,7 @@ body {
   header h1 {
     margin-top: 6%;
     color: #ebef00;
-    font-size: 28px;
+    font-size: 26px;
     font-family: 600;
     text-decoration: underline;
     text-decoration-color: #ebef00;
@@ -140,7 +140,7 @@ body {
     width: 80%;
     color:#000;
     margin-left: 10%;
-    font-size:29px;
+    font-size:28px;
     line-height: 30px;
     text-align: center;
     text-decoration: underline;
@@ -213,6 +213,9 @@ body {
     /* padding-left: 1%; */
     color: #00ea89; 
     text-transform: capitalize;
+  }
+  .left{
+    padding-left: 8%;
   }
   .mod li{
     margin-bottom: 6%;
