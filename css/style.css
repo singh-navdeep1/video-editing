@@ -25,7 +25,7 @@ body {
   header h1 {
     margin-top: 6%;
     color: #ebef00;
-    font-size: 22px;
+    font-size: 28px;
     font-family: 600;
     text-decoration: underline;
     text-decoration-color: #ebef00;
@@ -188,47 +188,39 @@ body {
   } 
   .box2{
     width: 48%;
-    height:250px;
-    background-color: #021217;
+    height:200px;
+    background-color: #0c0e3a;
     border-radius: 10px;
     margin-left: 1%;
     margin-top: 5%;
+    margin-bottom: 5%;
     float: left;
   }
-  .box3{
-    width: 48%;
-    height:250px;
-    background-color: #021217;
-    border-radius: 10px;
-    margin-left: 2%;
-    margin-top: 5%;
-    float: left;
-  }
-  .box2{
+  /* .box2 i{
     color:#30F73E;
     font-size: 34px;
     display: block;
-    padding-top: 6%;
+    padding-top: 2%;
     text-align: center;
     margin-bottom:0%;
-  }
-  .box3 i{
-    color:#30F73E;
-    font-size: 34px;
-    display: block;
-    padding-top: 10%;
-    text-align: center;
-    margin-bottom: 7%;
-  }
-  .center{
-    text-align: center;
-  }
-    .mod{
+  } */
+  .mod{
     list-style: none;
-    font-size: 14px;
-    padding-top:3%;
-    padding-left: 5%;
-    color:#Fff;
-    margin-bottom: 2%;
+    font-size: 13px;
+    padding-top:5%;
+    padding-left: 3%;
+    font-weight: 600;
+    /* padding-left: 1%; */
+    color: #00ea89; 
+    text-transform: capitalize;
+  }
+  .mod li{
+    margin-bottom: 6%;
+  }
+  .mod i {
+    font-size: 16px;
+  }
+  .box2 span{
+    padding-left: 4%;
   }
 }
