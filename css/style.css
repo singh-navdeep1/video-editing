@@ -324,7 +324,16 @@ body {
   
     font-size: 70px;
 } */
-
+  .video{
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  .frame{
+    width: 100%;
+    float: left;
+    margin: 5% 5%;
+  }
 
   .master_art{
     width: 100%;
@@ -401,7 +410,7 @@ body {
     width: 35%;
     height: 100px;
     box-shadow: 0px 0px 10px 0px rgba(96.23437500000001, 96.23437500000001, 96.23437500000001, 0.24);
-    margin: 20px 5%;
+    margin: 20px 7.5%;
     padding-top: 2%;
     float: left;
   }
