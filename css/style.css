@@ -632,10 +632,8 @@ strong{
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 36px;
+    font-size: 38px;
     font-family: 600;
-    text-decoration: underline;
-    text-decoration-color: #fff;
     text-align: center;
     text-transform: uppercase;
   }
@@ -1007,11 +1005,15 @@ strong{
     margin-bottom: 10%;
   }
   .list ol{
-    padding-left: 15%;
-    
+    padding-left: 2%
+  }
+  .list span {
+    margin-left: 2%;
   }
   ol li{
+    list-style: none;
     padding-top: 5%;
+    margin: 0 2%;
     margin-bottom: 1%;
     padding-left: 5%;
     color: #00ea89;
