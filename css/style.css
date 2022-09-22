@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
@@ -25,8 +28,8 @@ header {
 header h1 {
   margin-top: 2%;
   color: #ebef00;
-  font-size: 46px;
-  font-family: 600;
+  font-size: 50px;
+  font-family: 700;
   text-decoration: underline;
   text-decoration-color: #ebef00;
   text-align: center;
@@ -344,7 +347,8 @@ color: #00BF72;
 .frame{
   width: 100%;
   float: left;
-  margin: 5% 5%;
+  margin: 5% 0%;
+  /* padding-left: 5%; */
 }
 
 .master_art{
@@ -590,6 +594,32 @@ strong{
     margin: auto;
     height: auto;
   }
+  .header_top{
+    width: 100%;
+    height: 62px;
+    float: left;
+  }
+  .hlogo{
+    width: 40%;
+    margin-left: 4%;
+    float: left;
+  }
+  .hlogo img{
+    width: 100%;
+  }
+  .tel{
+    width: 35%;
+    display: block;
+    margin-top: 8%;
+    float: right;
+    margin-right: 4%;
+    color: #000;
+  }
+
+  .tel svg{
+    font-size: 20px;
+    color: #0093e9!important;
+  }
   header {
     width: 100%;
     height: auto;
@@ -598,19 +628,30 @@ strong{
   }
   header h1 {
     margin-top: 6%;
-    color: #ebef00;
-    font-size: 28px;
+    /* color: #ebef00; */
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
     font-family: 600;
     text-decoration: underline;
-    text-decoration-color: #ebef00;
+    text-decoration-color: #fff;
     text-align: center;
     text-transform: uppercase;
+  }
+  header p{
+    font-size:20px;
+    margin-left: 2%;
+    margin-top: 4%;
+    text-align: center;
+    color: #1ddca5;
+    
   }
   #form {
     width: 82vw;
     height: 420px;
     background-color: #fff;
-
+    float: left;
     margin-top: 5%;
     margin-left: 8%;
   }
@@ -628,7 +669,7 @@ strong{
   .textarea1:focus {
     outline: 0;
   }
-  #name {
+  .name {
     width: 80%;
     height: 40px;
     float: left;
@@ -637,7 +678,7 @@ strong{
     border-bottom: 1px solid #0093e9;
     padding-left: 5%;
   }
-  #phone {
+  .phone {
     width: 80%;
     height: 40px;
     float: left;
@@ -646,7 +687,7 @@ strong{
     border: none;
     border-bottom: 1px solid #0093e9;
   }
-  #email {
+  .email {
     width: 80%;
     height: 40px;
     float: left;
@@ -669,6 +710,23 @@ strong{
     text-transform: capitalize;
     font-size: 16px;
     color: #000;
+  }
+  .form2{
+    width: 82vw;
+    height: 280px;
+    background-color: #000;
+    float: left;
+    margin-top: 5%;
+    padding-top: 3%;
+    margin-left: 8%;
+    margin-bottom: 10%;
+  }
+  .form2 h2{
+    font-size: 24px;
+    font-weight: 600;
+   text-transform: uppercase;
+    text-align: center;
+    color:#fff;
   }
   .btn {
     background-color: #0093e9;
@@ -708,7 +766,8 @@ strong{
   }
   .whte {
     margin: 0 !important;
-    color: #fff;
+    color: #fff !important;
+    font-weight: 700;
   }
 
   .wetech {
@@ -835,6 +894,10 @@ strong{
     width:25%;
     margin-left:36%;
   }
+  .c2 h3{
+    text-align: center;
+    font-size: 28px;
+  }
   .center{
     display: block;
     text-align: center;
@@ -905,9 +968,74 @@ strong{
   .frame{
     width: 100%;
     float: left;
-    margin: 5% 5%;
+    margin: 5% 0%;
+    padding-left: 2%;
   }
 
+  .adobe{
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+  .adobe img{
+    width: 100%;
+  }
+  .abtn{
+    display: inline-block;
+    border: 2px solid #0093e9;
+    border-radius: 20px;
+    font-size: 14px;
+    position: relative;
+    top:-37px;
+    left: 160px;
+   color: #4070f4;
+    text-decoration: none;
+    text-transform: capitalize; 
+    padding: 2px 22px;
+  }
+  .assign{
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+  .list{
+    width: 80%;
+    background-color: #0c0e3a;
+    margin-left: 10%;
+    padding-bottom: 4%;
+    margin-bottom: 10%;
+  }
+  .list ol{
+    padding-left: 15%;
+    
+  }
+  ol li{
+    padding-top: 5%;
+    margin-bottom: 1%;
+    padding-left: 5%;
+    color: #00ea89;
+  }
+  .large4 {
+    border: none !important;
+    box-shadow: none!important;
+    display: inline-block;
+    width: 100%;
+       background: rgb(255,43,43);
+  background: linear-gradient(90deg, rgba(255,43,43,1) 0%, rgba(255,218,0,1) 100%); 
+    transition: none!important;
+    color: #000;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 30px;
+      font-weight: bold;
+    font-size: 20px;
+    
+    text-decoration: none;
+  }
   .master_art{
     width: 100%;
     height: auto;
@@ -921,9 +1049,9 @@ strong{
     margin-left: 5%;
    
   }
-  .box3 i{
+  .box3 svg{
     display: block;
-    text-align: center;
+    margin: auto;
     color: #00ea89;
     font-size: 50px;
     padding-top: 5%;
@@ -961,14 +1089,15 @@ strong{
 
     flex-wrap: wrap;
   }
-  .placement {
+  .logo_section {
     width: 100%;
     height: auto;
     float: left;
+    margin-bottom: 10%;
   }
-  .placement-box {
+  .logo-box {
     width: 100%;
-    height: 900px;
+    height: auto;
     /* background-color: #0c0e3a; */
   }
   /* .placement-heading{ 
@@ -979,21 +1108,37 @@ strong{
   color: #000;
 
 } */
-  .placement-content {
+  .logo-content {
     width: 35%;
     height: 100px;
     box-shadow: 0px 0px 10px 0px rgba(96.23437500000001, 96.23437500000001, 96.23437500000001, 0.24);
     margin: 20px 7.5%;
-    padding-top: 2%;
     float: left;
+  }
+  .logo-content1 {
+    width: 30%;
+    height: 100px;
+    box-shadow: 0px 0px 10px 0px rgba(96.23437500000001, 96.23437500000001, 96.23437500000001, 0.24);
+    margin: 20px 7.5%;
+    float: left;
+    padding-left: 2%;
+}
+.top1{
+  padding-top: 8%;
+}
+ .logo-content1 img{
+    width: 95%;
+    
   }
   .top{
     padding-top: 18%;
     padding-left: 10%;
   }
-  .placement-content img{
+  .logo-content img{
     width: 98%;
   }
+
+
   .call-to-action {
     width: 100%;
     height: auto;
@@ -1107,7 +1252,7 @@ strong{
   footer{
     width: 100%;
     height: auto;
-    background-color: #5b3798;
+    background-color: #272FBE96;
     float: left;
   }
   .logo{
@@ -1118,24 +1263,25 @@ strong{
     width: 100%;
   }
   .f1{
-    width: 80%;
+    width: 90%;
     height: auto;
     float: left;
     padding-left: 10%;
     margin-bottom: 10%;
   }
   .f1 h3{
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
     margin-bottom: 5%;
   }
   .f1 p{
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     margin-bottom: 2%;
   }
   strong{
-    color:#0093e9;
+    font-size: 16px;
+    color:#4800ef;
     font-weight:600 ;
   }
   .white{
@@ -1179,7 +1325,7 @@ strong{
   text-align: center;
   text-decoration: underline !important;
   text-transform: uppercase;
-  margin-bottom: 10%;
+  margin-bottom: 6%;
 }
 .testimonial .slide {
   display: flex;
